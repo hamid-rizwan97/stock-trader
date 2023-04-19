@@ -21,4 +21,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.container{
+  background-color: rgb(165, 238, 204);
+  padding-top: 20px;
+  
+}
+</style>
