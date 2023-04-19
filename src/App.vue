@@ -1,11 +1,14 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <appheader></appheader>
     <div class="row">
       <div class="col-md-12">
         <router-view></router-view>
       </div>
     </div>
+    <div class="image">
+    <img src="./assets/stock.png">
+  </div>
   </div>
 </template>
 
@@ -22,9 +25,12 @@ export default {
 </script>
 
 <style scoped>
-.container{
-  background-color: rgb(165, 238, 204);
+.container-fluid{
+  background-color: rgb(213, 255, 200);
   padding-top: 20px;
   
+}
+.image{
+  text-align: center;
 }
 </style>
