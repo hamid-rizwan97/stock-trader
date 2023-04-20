@@ -35,7 +35,7 @@
             <ul class="dropdown-menu">
               <li>
                 <a href="#" @click="saveData()"> Save Data </a>
-                <a href="#"> Load Data </a>
+                <a href="#" @click="loadData()"> Load Data </a>
               </li>
             </ul>
           </li>
@@ -76,7 +76,7 @@ export default {
     },
     loadData()
     {
-           this.fetchData
+           this.fetchData();
     }
   },
 };
